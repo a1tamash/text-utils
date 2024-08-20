@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Text Utils</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1 id="header">Text Analyzer</h1>
+			</header>
+			<main>
+				<div class="container">
+					<textarea id="text" placeholder="Enter your text here..."></textarea>
+				</div>
+				<div id="buttons">
+					<button id="change1" class="change">Uppercase</button>
+					<button id="change2" class="change">Lowercase</button>
+					<button class="change" id="clear">Clear</button>
+				</div>
+				<div class="count">
+					<h2 id="count">0 words | 0 characters</h2>
+				</div>
+				<div id="preview">
+					<h3>Preview</h3>
+					<div id="replace"></div>
+				</div>
+			</main>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
